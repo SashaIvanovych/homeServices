@@ -381,7 +381,7 @@ textarea.input {
 
         &::after {
             content: '';
-            background: url('/img/hero/icon-call.svg') center no-repeat;
+            background: url('../img/hero/icon-call.svg') center no-repeat;
             flex: 0 0 rem(48);
             width: rem(48);
             height: rem(48);
@@ -586,7 +586,7 @@ textarea.input {
     // .done__item
 
     &__item {
-        background: url('/img/hero/icon-check.svg') left rem(1) no-repeat;
+        background: url('../img/hero/icon-check.svg') left rem(1) no-repeat;
         color: $blue;
         padding-left: rem(32);
         @include adaptive-value("font-size", 20, 14);
@@ -729,7 +729,7 @@ textarea.input {
 
     &__item {
         color: $darkBlue;
-        background: url('/img/about/icon-check.svg') 0 em(5, 20) no-repeat;
+        background: url('../img/about/icon-check.svg') 0 em(5, 20) no-repeat;
         padding-left: rem(30);
         font-weight: 700;
         @include adaptive-value("font-size", 20, 16);
@@ -958,7 +958,7 @@ textarea.input {
         &::after {
             content: '';
             position: absolute;
-            background: url('/img/advantages/Decoration.svg') center no-repeat;
+            background: url('../img/advantages/Decoration.svg') center no-repeat;
             height: 100%;
             width: rem(45);
             top: 50%;
@@ -1296,7 +1296,7 @@ textarea.input {
     // .reviews__arrow
 
     &__arrow {
-        background: $blue url('/img/reviews/arrow.svg') center no-repeat;
+        background: $blue url('../img/reviews/arrow.svg') center no-repeat;
         width: rem(48);
         height: rem(48);
         border-radius: 50%;
@@ -1322,7 +1322,7 @@ textarea.input {
         }
 
         &.swiper-button-disabled {
-            background: #E3E6F0 url('/img/reviews/arrow.svg') center no-repeat;
+            background: #E3E6F0 url('../img/reviews/arrow.svg') center no-repeat;
             pointer-events: none;
             cursor: default;
         }
@@ -1434,6 +1434,7 @@ textarea.input {
         img {
             width: 100%;
             height: 100%;
+            object-fit: cover;
         }
     }
 
@@ -1472,13 +1473,13 @@ textarea.input {
     // .rating__item
 
     &__item {
-        background: url('/img/reviews/star.svg') 0 0 no-repeat;
+        background: url('../img/reviews/star.svg') 0 0 no-repeat;
         aspect-ratio: 1 / 1;
         width: rem(26);
         flex: 0 0 rem(26);
 
         &--active {
-            background: url('/img/reviews/star-fill.svg') 0 0 no-repeat;
+            background: url('../img/reviews/star-fill.svg') 0 0 no-repeat;
         }
     }
 }
@@ -1547,7 +1548,7 @@ textarea.input {
 
         &::after {
             content: '';
-            background: url('/img/blog/arrow.svg') center no-repeat;
+            background: url('../img/blog/arrow.svg') center no-repeat;
             width: rem(24);
             flex: 0 0 rem(24);
             height: rem(24);
@@ -1574,7 +1575,7 @@ textarea.input {
         overflow: hidden;
 
         img {
-            max-width: 100%;
+            width: 100%;
             height: 100%;
             object-fit: cover;
             transition: all 0.4s ease 0s;
@@ -1664,13 +1665,6 @@ textarea.input {
 }
 
 // ==================================================================== FAQ =======================================================
-.page {
-
-    // .page__questions
-
-    &__questions {}
-}
-
 .questions {
 
     // .questions__container
@@ -1766,7 +1760,7 @@ textarea.input {
 
         &::after {
             content: "";
-            background: url('/img/faq/arrow.svg') center no-repeat;
+            background: url('../img/faq/arrow.svg') center no-repeat;
             width: rem(32);
             height: rem(32);
             flex: 0 0 rem(32);
@@ -1822,7 +1816,7 @@ textarea.input {
             content: "";
             top: rem(-1);
             left: 0;
-            background: url('/img/talk/decor.svg') 0 0 no-repeat;
+            background: url('../img/talk/decor.svg') 0 0 no-repeat;
             aspect-ratio: 581 / 45;
             @include adaptive-value("width", 581, 300);
         }
@@ -1875,7 +1869,7 @@ textarea.input {
         }
 
         img {
-            max-width: 100%;
+            width: 100%;
             height: 100%;
         }
     }
